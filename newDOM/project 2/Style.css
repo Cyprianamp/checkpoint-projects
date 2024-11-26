@@ -1,0 +1,40 @@
+/* Style the container to center its content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the color box */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0; /* Default color */
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#change-color-btn:hover {
+    background-color: #45a049;
+}
