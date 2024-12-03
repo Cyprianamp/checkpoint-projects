@@ -57,7 +57,7 @@ function isPalindrome(str) {
 }
 
 console.log(isPalindrome("A man a plan a canal Panama")); // Output: true
-console.log(isPalindrome("hello")); // Output: false
+console.log(isPalindrome("hello")); // Output: falseg
 
 
 
